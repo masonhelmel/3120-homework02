@@ -1,0 +1,9 @@
+services:
+  amalancalweb:
+    image: helmasw/homework02:latest
+    container_name: compassionate_bhaskara
+    restart: always
+    ports:
+      - "80:80"
+    volumes:
+      - /home/homework02
